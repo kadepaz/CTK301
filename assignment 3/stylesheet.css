@@ -1,0 +1,44 @@
+/*This is a stylesheet for assignment3.html*/
+
+p {
+    color:rgb(32, 48, 48);
+    background-color:rgb(212, 150, 150)
+}
+
+.specialp {
+    color: #a152ce;
+    background-color: bisque;
+ }
+
+  .other {
+    color:aqua;
+    background-color:rgb(87, 177, 120);
+}
+
+.h3 {
+    color:#a152ce;
+    background-color: rgb(201, 217, 233);
+}
+
+a:link {
+    color: #ff0000;
+  }
+  
+  a:visited {
+    color: #0a7523;
+  }
+  
+  a:hover {
+    color: #ffff00;
+  }
+  
+  #divexample {
+    background-color: rgb(192, 166, 215);
+  }
+
+  .span {
+    color: rgb(163, 73, 0);
+  }
+
+
+  
