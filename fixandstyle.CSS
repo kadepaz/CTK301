@@ -1,0 +1,59 @@
+h1 {
+    color: rgb(233, 228, 228);
+}
+
+#div {
+    background-color: rgb(177, 151, 226);
+}
+
+h2 {
+    color: rgb(91, 54, 150);
+}
+
+.orange {
+    color: orange;
+}
+
+h3 {
+    background-color: yellow;
+}
+
+.red {
+    color: red;
+}
+
+h4 {
+    color: yellow;
+    background-color: green;
+}
+
+#green {
+    background-color: greenyellow;
+}
+
+h5 {
+    color: red;
+}
+
+a:link {
+    color:rgb(48, 206, 48);
+    text-decoration: none;
+}
+
+a:visited {
+    color:green;
+    text-decoration:none;
+}
+
+a:hover {
+    color:red;
+    text-decoration:underline;
+}
+
+.purple {
+    color:rgb(96, 26, 182);
+}
+
+footer {
+    background-color: yellow;
+}
