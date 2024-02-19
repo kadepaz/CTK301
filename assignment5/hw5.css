@@ -53,6 +53,12 @@ main a:link {
     font-weight: bold;
 }
 
+main a:visited {
+    color: blue;
+    text-decoration: none;
+    font-weight:bold;
+}
+
 main a:hover {
     color: red;
     text-decoration: underline;
