@@ -1,0 +1,141 @@
+header {
+    grid-column: span 12;
+    background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+    padding: 0px;
+    margin:0px;
+}
+
+h1 a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    color: rgb(163, 237, 255);
+    display: block;
+    background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+    padding: 20px;
+}
+
+h1 a:hover {
+    background-image: linear-gradient(to top, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+    color: white;
+}
+
+h1 {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    margin: 1em auto;
+    width: 900px;
+    border: 5px solid rgb(0, 0, 181);
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    background-color: gray;
+}
+
+nav {
+    grid-column: span 12;
+    background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+}
+ 
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav li {
+    width: 230px;
+    display: inline-block;
+    float: left;
+    border-right: 4px solid #1335ae;
+}
+
+nav li a {
+    text-decoration: none;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+    padding: 10px;
+    color: rgb(174, 220, 255);
+    font-weight: bold;
+}
+
+nav li a:hover{
+    background-image: linear-gradient(to top, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+    color: white;
+}
+
+h2 {
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 181);
+    border-bottom: 3px solid rgb(0, 0, 181);
+    padding-bottom: 10px;
+}
+
+main {
+    grid-column: span 4;
+    padding:20px 30px 20px 30px;
+    text-align: justify;
+    font-weight: bold;
+    background-color: rgb(195, 240, 255);
+}
+
+.float {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border: 3px solid rgb(0, 0, 181);
+}
+
+.float2 {
+    float: right;
+    border: 3px solid rgb(0, 0, 181);
+    margin: 20px;
+}
+
+.other {
+    grid-column: span 8;
+    padding: 20px 30px 20px 30px;
+    background-color: white;
+}
+
+.other a {
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+}
+
+.last {
+    grid-column: span 4;
+    background-color: white;
+    padding: 20px;
+}
+
+.gallery {
+    width: 260px;
+
+}
+
+.last a {
+    text-decoration:none;
+    font-weight:bold;
+    color:red;
+}
+
+footer {
+    grid-column: span 12;
+    border-top: 5px solid rgb(0, 0, 181);
+}
+
+footer a {
+    background-color: red;
+    display: inline-block;
+    margin: 0px;
+    width: 880px;
+    padding: 10px;
+}
+
