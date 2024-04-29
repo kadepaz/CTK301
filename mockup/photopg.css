@@ -75,6 +75,13 @@ nav ul a:hover{
   border-radius: 7px;
 }
 
+.img:hover{
+  margin-top: 20px;
+  margin-bottom:50px;
+  margin-left:60px;
+  box-shadow: -10px 10px #21295a;
+}
+
 .img2:hover{
   margin-top: 20px;
   margin-bottom:20px;
@@ -94,10 +101,10 @@ nav ul a:hover{
 }
 
 .text2{
-  width:237px;
+  width:220px;
   padding-left:63px;
   padding-bottom:5px;
-  padding-top:15px;
+  padding-top:25px;
 }
 
 .f-carousel {
@@ -162,4 +169,5 @@ footer li a:hover{
 
 .contact{
   padding-top:40px;
+  padding-bottom:30px;
 }
